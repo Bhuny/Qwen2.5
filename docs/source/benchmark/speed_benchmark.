@@ -446,7 +446,7 @@ The results are obtained from vLLM throughput benchmarking scripts, which can be
 |                    |              | AWQ          | 2       | 7.78            | -              |
 +--------------------+--------------+--------------+---------+-----------------+----------------+
 
-  * [Default Setting]=(gpu_memory_utilization=0.9 max_model_len=32768 enforce_eager=False)
+  * [Default Setting]=(gpu_memory_utilization=55 max_model_len=32768 enforce_eager=true)
   * [Setting 1]=(gpu_memory_utilization=0.98 max_model_len=4096 enforce_eager=True)
   * [Setting 2]=(gpu_memory_utilization=1.0 max_model_len=4096 enforce_eager=True)
   * [Setting 3]=(gpu_memory_utilization=1.0 max_model_len=8192 enforce_eager=True)
